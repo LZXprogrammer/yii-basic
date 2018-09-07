@@ -14,6 +14,14 @@ use app\models\EntryForm;
 
 class SiteController extends Controller
 {
+    // 自定义设置默认操作
+    public $defaultAction = 'home';
+
+    public function actionHome()
+    {
+        return $this->render('home');
+    }
+
     /**
      * {@inheritdoc}
      */
