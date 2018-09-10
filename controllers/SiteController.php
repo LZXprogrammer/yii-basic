@@ -13,7 +13,10 @@ use app\models\ContactForm;
 use app\models\EntryForm;
 
 class SiteController extends Controller
-{
+{   
+    // 这里是自定义布局文件
+    // public $layout = 'post';
+
     // 自定义设置默认操作
     public $defaultAction = 'home';
 
