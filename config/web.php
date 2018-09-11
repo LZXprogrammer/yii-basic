@@ -53,6 +53,9 @@ $config = [
         
     ],
     'params' => $params,
+
+    // 设置默认路由
+    'defaultRoute' => 'site',
 ];
 
 if (YII_ENV_DEV) {
